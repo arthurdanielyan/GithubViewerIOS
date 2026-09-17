@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/new/GithubViewer/data/.build/arm64-apple-macosx/debug/DomainAuth.build/primary.swiftdeps"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/new/GithubViewer/domain/Sources/auth/repository/AuthRepository.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/new/GithubViewer/data/.build/arm64-apple-macosx/debug/DomainAuth.build/AuthRepository.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/new/GithubViewer/data/.build/arm64-apple-macosx/debug/DomainAuth.build/AuthRepository.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/new/GithubViewer/data/.build/arm64-apple-macosx/debug/DomainAuth.build/AuthRepository~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/new/GithubViewer/data/.build/arm64-apple-macosx/debug/DomainAuth.build/AuthRepository.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/new/GithubViewer/data/.build/arm64-apple-macosx/debug/DomainAuth.build/AuthRepository.dia"
+  }
+}
