@@ -42,7 +42,7 @@ public final class LoginViewModel: ObservableObject {
             do {
                 print(state.tokenInput)
                 try await loginUseCase.execute(token: state.tokenInput)
-                appRouter.navigate(MainDestination())
+                appRouter.navigate(HomeDestination())
                 print("Success")
             } catch {
                 print(error)

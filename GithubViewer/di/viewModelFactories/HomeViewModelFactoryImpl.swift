@@ -1,8 +1,8 @@
-import FeatureRepos
+import FeatureHome
 import DomainAuth
 import Navigation
 
-struct ReposViewModelFactoryImpl: ReposViewModelFactory {
+struct HomeViewModelFactoryImpl: HomeViewModelFactory {
     private let appRouter: AppRouter
     
     init(
@@ -11,8 +11,8 @@ struct ReposViewModelFactoryImpl: ReposViewModelFactory {
         self.appRouter = appRouter
     }
     
-    func create() -> ReposViewModel {
-        ReposViewModel(
+    func create() -> HomeViewModel {
+        HomeViewModel(
             appRouter: appRouter,
         )
     }

@@ -1,29 +1,29 @@
 import SwiftUI
 import FeatureRepos
 
-public struct MainScreen: View {
-    @StateObject private var viewModel: MainViewModel
-    private let mainDependencyProvider: MainDependencyProvider
+public struct HomeScreen: View {
+    @StateObject private var viewModel: HomeViewModel
+    private let homeDependencyProvider: HomeDependencyProvider
     
-    public init(mainDependencyProvider: MainDependencyProvider) {
-        self.mainDependencyProvider = mainDependencyProvider
+    public init(homeDependencyProvider: HomeDependencyProvider) {
+        self.homeDependencyProvider = homeDependencyProvider
         _viewModel = StateObject(
-            wrappedValue: mainDependencyProvider.getMainViewModelFactory().create()
+            wrappedValue: homeDependencyProvider.getHomeViewModelFactory().create()
         )
     }
 
     public var body: some View {
-        MainScreenContent(
+        HomeScreenContent(
             state: viewModel.state,
             onAction: viewModel.onIntent(_:),
-            reposViewModelFactory: mainDependencyProvider.getReposViewModelFactory()
+            reposViewModelFactory: homeDependencyProvider.getReposViewModelFactory()
         )
     }
 }
 
-private struct MainScreenContent: View {
-    let state: MainViewState
-    let onAction: (MainIntent) -> Void
+private struct HomeScreenContent: View {
+    let state: HomeViewState
+    let onAction: (HomeIntent) -> Void
     
     let reposViewModelFactory: ReposViewModelFactory
     
@@ -37,15 +37,15 @@ private struct MainScreenContent: View {
         ) {
             ReposScreen(viewModelFactory: reposViewModelFactory)
                 .tabItem { Label("Repos", systemImage: "rectangle.stack") }
-                .tag(MainTab.repos)
+                .tag(HomeTab.repos)
             
             TabScreenContent("Users")
                 .tabItem { Label("Users", systemImage: "person.3.fill") }
-                .tag(MainTab.users)
+                .tag(HomeTab.users)
             
             TabScreenContent("Profile")
                 .tabItem { Label("Profile", systemImage: "person.fill") }
-                .tag(MainTab.profile)
+                .tag(HomeTab.profile)
         }
     }
 }

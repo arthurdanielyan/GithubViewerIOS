@@ -2,10 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "featureMain",
+    name: "featureHome",
     platforms: [.iOS(.v17)],
     products: [
-        .library(name: "FeatureMain", targets: ["FeatureMain"])
+        .library(name: "FeatureHome", targets: ["FeatureHome"])
     ],
     dependencies: [
         .package(path: "../navigation"),
@@ -13,12 +13,12 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "FeatureMain",
+            name: "FeatureHome",
             dependencies: [
                 .product(name: "FeatureRepos", package: "featureRepos"),
                 .product(name: "Navigation", package: "navigation"),
             ],
-            path: "Sources/featureMain"
+            path: "Sources/featureHome"
         ),
     ]
 )

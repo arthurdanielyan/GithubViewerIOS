@@ -8,7 +8,7 @@
 import SwiftUI
 import Navigation
 import FeatureLogin
-import FeatureMain
+import FeatureHome
 
 struct ContentView: View {
     private let appModule: AppModule
@@ -33,8 +33,8 @@ struct ContentView: View {
                 LoginScreen(viewModelFactory: appModule.loginViewModelFactory.get())
                     .navigationBarBackButtonHidden(true)
             }
-            .navigationDestination(for: MainDestination.self) { _ in
-                MainScreen(mainDependencyProvider: appModule.mainDependecyProvider.get())
+            .navigationDestination(for: HomeDestination.self) { _ in
+                HomeScreen(homeDependencyProvider: appModule.homeDependencyProvider.get())
                     .navigationBarBackButtonHidden(true)
             }
         }

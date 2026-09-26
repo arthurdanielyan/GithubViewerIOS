@@ -10,7 +10,7 @@ import DomainAuth
 import Network
 import Navigation
 import FeatureLogin
-import FeatureMain
+import FeatureHome
 
 final class AppModule {
     
@@ -56,16 +56,16 @@ final class AppModule {
         )
     }
     
-    lazy var mainViewModelFactory: any DependencyProvider<MainViewModelFactory> =
+    lazy var homeViewModelFactory: any DependencyProvider<HomeViewModelFactory> =
     NewDependencyProvider { [unowned self] in
-        MainViewModelFactoryImpl(
+        HomeViewModelFactoryImpl(
             appRouter: appRouter!
         )
     }
     
-    lazy var mainDependecyProvider: any DependencyProvider<MainDependencyProvider> =
+    lazy var homeDependencyProvider: any DependencyProvider<HomeDependencyProvider> =
     NewDependencyProvider { [unowned self] in
-        MainDependencyProviderImpl(
+        HomeDependencyProviderImpl(
             appRouter: SingletonDependencyProvider(appRouter!)
         )
     }

@@ -3,10 +3,10 @@ import DomainAuth
 import Navigation
 
 @MainActor
-public final class MainViewModel: ObservableObject {
+public final class HomeViewModel: ObservableObject {
     private let appRouter: AppRouter
     
-    @Published private(set) var state: MainViewState = MainViewState()
+    @Published private(set) var state: HomeViewState = HomeViewState()
     
     public init(
         appRouter: AppRouter,
@@ -14,7 +14,7 @@ public final class MainViewModel: ObservableObject {
         self.appRouter = appRouter
     }
     
-    func onIntent(_ intent: MainIntent) {
+    func onIntent(_ intent: HomeIntent) {
         switch intent {
         case .selectTab(let tab): state.activeTab = tab
         }

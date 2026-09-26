@@ -1,16 +1,16 @@
 //
-//  MainDependecyProvider.swift
+//  HomeDependencyProvider.swift
 //  GithubViewer
 //
 //  Created by Artur Danielyan on 27.09.26.
 //
 
 import Foundation
-import FeatureMain
+import FeatureHome
 import FeatureRepos
 import Navigation
 
-final class MainDependencyProviderImpl: MainDependencyProvider {
+final class HomeDependencyProviderImpl: HomeDependencyProvider {
     private var appRouter: any DependencyProvider<AppRouter>
     
     init(appRouter: any DependencyProvider<AppRouter>) {
@@ -24,15 +24,15 @@ final class MainDependencyProviderImpl: MainDependencyProvider {
         )
     }
     
-    lazy var mainViewModelFactory: any DependencyProvider<MainViewModelFactory> =
+    lazy var homeViewModelFactory: any DependencyProvider<HomeViewModelFactory> =
     NewDependencyProvider { [unowned self] in
-        MainViewModelFactoryImpl(
+        HomeViewModelFactoryImpl(
             appRouter: appRouter.get()
         )
     }
     
-    func getMainViewModelFactory() -> MainViewModelFactory {
-        return mainViewModelFactory.get()
+    func getHomeViewModelFactory() -> HomeViewModelFactory {
+        return homeViewModelFactory.get()
     }
     
     func getReposViewModelFactory() -> ReposViewModelFactory {

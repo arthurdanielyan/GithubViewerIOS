@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct MainDestination: Destination {
+public struct HomeDestination: Destination {
     
     public init() {}
 }
