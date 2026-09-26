@@ -3,7 +3,7 @@ import FeatureRepos
 
 public struct MainScreen: View {
     @StateObject private var viewModel: MainViewModel
-    @State private var mainDependencyProvider: MainDependencyProvider
+    private let mainDependencyProvider: MainDependencyProvider
     
     public init(mainDependencyProvider: MainDependencyProvider) {
         self.mainDependencyProvider = mainDependencyProvider
@@ -25,7 +25,7 @@ private struct MainScreenContent: View {
     let state: MainViewState
     let onAction: (MainIntent) -> Void
     
-    @State var reposViewModelFactory: ReposViewModelFactory
+    let reposViewModelFactory: ReposViewModelFactory
     
     public var body: some View {
         TabView(
