@@ -11,10 +11,20 @@ import Navigation
 
 class AppRouterImpl: AppRouter, ObservableObject {
     
+    @Published public var root: NavigationRootOption = .splash
     @Published public var stack = NavigationPath()
     
     func navigate(_ to: any Destination) {
-        stack.append(to)
+        if to is HomeDestination || to is LoginDestination {
+            stack.removeLast(stack.count)
+            root = switch to {
+            case is HomeDestination: .home
+            case is LoginDestination: .login
+            default: .splash
+            }
+        } else {
+            stack.append(to)
+        }
     }
     
     func pop() {

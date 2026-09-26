@@ -13,7 +13,7 @@ import FeatureLogin
 import FeatureHome
 
 final class AppModule {
-    
+
     lazy var httpClient = SingletonDependencyProvider(
         factory: {
             let client = HttpClient()
@@ -24,14 +24,14 @@ final class AppModule {
             return client
         }
     )
-    
+
     lazy var authApi = SingletonDependencyProvider(
         AuthApi(
             httpClient: httpClient.get()
         )
     )
     lazy var tokenStore = SingletonDependencyProvider(TokenStore())
-    
+
     var authRepository: any DependencyProvider<AuthRepository> {
         NewDependencyProvider { [unowned self] in
             AuthRepositoryImpl(
@@ -41,38 +41,49 @@ final class AppModule {
             )
         }
     }
-    
+
     lazy var loginUseCase =
     NewDependencyProvider { [unowned self] in
         LoginUseCase(
             authRepository: authRepository.get(),
         )
     }
+    lazy var getAuthStateUseCase =
+    NewDependencyProvider { [unowned self] in
+        GetAuthStateUseCase(
+            authRepository: authRepository.get(),
+        )
+    }
+
+    lazy var mainViewModelFactory: any DependencyProvider<MainViewModelFactory> =
+    NewDependencyProvider { [unowned self] in
+        MainViewModelFactoryImpl(
+            appRouter: appRouter,
+            getAuthStateUseCase: getAuthStateUseCase.get(),
+        )
+    }
+
     lazy var loginViewModelFactory: any DependencyProvider<LoginViewModelFactory> =
     NewDependencyProvider { [unowned self] in
         LoginViewModelFactoryImpl(
             loginUseCase: loginUseCase.get(),
-            appRouter: appRouter!
+            appRouter: appRouter
         )
     }
-    
+
     lazy var homeViewModelFactory: any DependencyProvider<HomeViewModelFactory> =
     NewDependencyProvider { [unowned self] in
         HomeViewModelFactoryImpl(
-            appRouter: appRouter!
+            appRouter: appRouter
         )
     }
-    
+
     lazy var homeDependencyProvider: any DependencyProvider<HomeDependencyProvider> =
     NewDependencyProvider { [unowned self] in
         HomeDependencyProviderImpl(
-            appRouter: SingletonDependencyProvider(appRouter!)
+            appRouter: SingletonDependencyProvider(appRouter)
         )
     }
-    
-    private var appRouter: AppRouter? = nil
-    
-    func putAppRouter(appRouter: AppRouter) {
-        self.appRouter = appRouter
-    }
+
+    let appRouter: AppRouterImpl = AppRouterImpl()
 }

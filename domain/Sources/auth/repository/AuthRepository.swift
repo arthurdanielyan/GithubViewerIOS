@@ -8,4 +8,6 @@
 public protocol AuthRepository: Sendable {
     
     func authenticate(apiToken: String) async throws -> Void
+    
+    func isAuthenticated() async -> Bool
 }

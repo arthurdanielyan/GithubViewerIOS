@@ -25,4 +25,8 @@ public struct AuthRepositoryImpl: AuthRepository {
         httpClient.putToken("Bearer \(apiToken)")
         tokenStore.storeToken(apiToken)
     }
+    
+    public func isAuthenticated() async -> Bool {
+        return tokenStore.getToken() != nil
+    }
 }
