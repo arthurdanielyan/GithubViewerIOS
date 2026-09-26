@@ -36,19 +36,16 @@ private struct MainScreenContent: View {
             
         ) {
             ReposScreen(viewModelFactory: reposViewModelFactory)
-                .tabItem {
-                    Label("Repos", systemImage: "rectangle.stack")
-                }
+                .tabItem { Label("Repos", systemImage: "rectangle.stack") }
+                .tag(MainTab.repos)
             
             TabScreenContent("Users")
-                .tabItem {
-                    Label("Users", systemImage: "person.3.fill")
-                }
+                .tabItem { Label("Users", systemImage: "person.3.fill") }
+                .tag(MainTab.users)
             
             TabScreenContent("Profile")
-                .tabItem {
-                    Label("Profile", systemImage: "person.fill")
-                }
+                .tabItem { Label("Profile", systemImage: "person.fill") }
+                .tag(MainTab.profile)
         }
     }
 }
