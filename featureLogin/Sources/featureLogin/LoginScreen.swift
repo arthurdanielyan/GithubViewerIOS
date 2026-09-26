@@ -10,8 +10,8 @@ import SwiftUI
 public struct LoginScreen: View {
     @StateObject private var viewModel: LoginViewModel
     
-    public init(loginViewModelFactory: LoginViewModelFactory) {
-        _viewModel = StateObject(wrappedValue: loginViewModelFactory.create())
+    public init(viewModelFactory: LoginViewModelFactory) {
+        _viewModel = StateObject(wrappedValue: viewModelFactory.create())
     }
 
     public var body: some View {

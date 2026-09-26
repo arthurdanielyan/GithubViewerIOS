@@ -5,16 +5,17 @@ let package = Package(
     name: "featureMain",
     platforms: [.iOS(.v17)],
     products: [
-        .library(name: "featureMain", targets: ["FeatureMain"])
+        .library(name: "FeatureMain", targets: ["FeatureMain"])
     ],
     dependencies: [
-        .package(path: "../domain"),
         .package(path: "../navigation"),
+        .package(path: "../featureRepos"),
     ],
     targets: [
         .target(
             name: "FeatureMain",
             dependencies: [
+                .product(name: "FeatureRepos", package: "featureRepos"),
                 .product(name: "Navigation", package: "navigation"),
             ],
             path: "Sources/featureMain"

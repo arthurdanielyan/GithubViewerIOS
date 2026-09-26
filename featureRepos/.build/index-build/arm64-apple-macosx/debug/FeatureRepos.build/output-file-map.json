@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/primary.swiftdeps"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/Sources/featureRepos/ReposIntent.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposIntent.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposIntent.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposIntent~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposIntent.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposIntent.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/Sources/featureRepos/ReposScreen.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposScreen.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposScreen.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposScreen~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposScreen.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposScreen.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/Sources/featureRepos/ReposViewModel.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewModel.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewModel.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewModel.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewModel.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/Sources/featureRepos/ReposViewModelFactory.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewModelFactory.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewModelFactory.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewModelFactory~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewModelFactory.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewModelFactory.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/Sources/featureRepos/ReposViewState.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewState.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewState.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewState~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewState.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureRepos/.build/index-build/arm64-apple-macosx/debug/FeatureRepos.build/ReposViewState.dia"
+  }
+}

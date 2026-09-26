@@ -1,16 +1,22 @@
 import SwiftUI
+import FeatureRepos
 
 public struct MainScreen: View {
     @StateObject private var viewModel: MainViewModel
+    @State private var mainDependencyProvider: MainDependencyProvider
     
-    public init(mainViewModelFactory: MainViewModelFactory) {
-        _viewModel = StateObject(wrappedValue: mainViewModelFactory.create())
+    public init(mainDependencyProvider: MainDependencyProvider) {
+        self.mainDependencyProvider = mainDependencyProvider
+        _viewModel = StateObject(
+            wrappedValue: mainDependencyProvider.getMainViewModelFactory().create()
+        )
     }
 
     public var body: some View {
         MainScreenContent(
             state: viewModel.state,
-            onAction: viewModel.onIntent(_:)
+            onAction: viewModel.onIntent(_:),
+            reposViewModelFactory: mainDependencyProvider.getReposViewModelFactory()
         )
     }
 }
@@ -18,6 +24,8 @@ public struct MainScreen: View {
 private struct MainScreenContent: View {
     let state: MainViewState
     let onAction: (MainIntent) -> Void
+    
+    @State var reposViewModelFactory: ReposViewModelFactory
     
     public var body: some View {
         TabView(
@@ -27,7 +35,7 @@ private struct MainScreenContent: View {
             ),
             
         ) {
-            TabScreenContent("Repos")
+            ReposScreen(viewModelFactory: reposViewModelFactory)
                 .tabItem {
                     Label("Repos", systemImage: "rectangle.stack")
                 }
@@ -60,11 +68,4 @@ private struct TabScreenContent: View {
             Text(text)
         }
     }
-}
-
-#Preview {
-    MainScreenContent(
-        state: MainViewState(),
-        onAction: { _ in }
-    )
 }

@@ -1,0 +1,41 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "domain",
+          "kind" : "fileSystem",
+          "location" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/domain",
+          "name" : "domain"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/domain"
+        },
+        "subpath" : "domain"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "navigation",
+          "kind" : "fileSystem",
+          "location" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation",
+          "name" : "navigation"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation"
+        },
+        "subpath" : "navigation"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

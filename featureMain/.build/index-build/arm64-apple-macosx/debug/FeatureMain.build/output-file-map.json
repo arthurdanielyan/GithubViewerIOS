@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/primary.swiftdeps"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainIntent.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainIntent.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainIntent.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainIntent~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainIntent.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainIntent.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainScreen.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainScreen.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainScreen.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainScreen~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainScreen.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainScreen.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewModel.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModel.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModel.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModel.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModel.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewModelFactory.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModelFactory.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModelFactory.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModelFactory~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModelFactory.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModelFactory.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewState.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewState.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewState.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewState~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewState.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewState.dia"
+  }
+}

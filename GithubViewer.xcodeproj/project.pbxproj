@@ -12,8 +12,9 @@
 		A9CD50B6305C08BD00EA0C8D /* DomainAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A9CD50B5305C08BD00EA0C8D /* DomainAuth */; };
 		A9CD516D305C0A2800EA0C8D /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = A9CD516C305C0A2800EA0C8D /* Network */; };
 		A9D54606306828ED003E21C7 /* Navigation in Frameworks */ = {isa = PBXBuildFile; productRef = A9D54605306828ED003E21C7 /* Navigation */; };
-		A9D5537F30683A33003E21C7 /* featureMain in Frameworks */ = {isa = PBXBuildFile; productRef = A9D5537E30683A33003E21C7 /* featureMain */; };
+		A9D5537F30683A33003E21C7 /* FeatureMain in Frameworks */ = {isa = PBXBuildFile; productRef = A9D5537E30683A33003E21C7 /* FeatureMain */; };
 		A9D5543A30683DB8003E21C7 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = A9D5543930683DB8003E21C7 /* Core */; };
+		A9D55C4B306859CB003E21C7 /* FeatureRepos in Frameworks */ = {isa = PBXBuildFile; productRef = A9D55C4A306859CB003E21C7 /* FeatureRepos */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,11 +35,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9D54606306828ED003E21C7 /* Navigation in Frameworks */,
+				A9D55C4B306859CB003E21C7 /* FeatureRepos in Frameworks */,
 				A9C59ED0305F0A84001FC9D6 /* FeatureLogin in Frameworks */,
 				A9D5543A30683DB8003E21C7 /* Core in Frameworks */,
 				A9CD516D305C0A2800EA0C8D /* Network in Frameworks */,
 				A9CD50B6305C08BD00EA0C8D /* DomainAuth in Frameworks */,
-				A9D5537F30683A33003E21C7 /* featureMain in Frameworks */,
+				A9D5537F30683A33003E21C7 /* FeatureMain in Frameworks */,
 				A9CD50AC305C08A400EA0C8D /* DataAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,8 +81,9 @@
 				A9CD516C305C0A2800EA0C8D /* Network */,
 				A9C59ECF305F0A84001FC9D6 /* FeatureLogin */,
 				A9D54605306828ED003E21C7 /* Navigation */,
-				A9D5537E30683A33003E21C7 /* featureMain */,
+				A9D5537E30683A33003E21C7 /* FeatureMain */,
 				A9D5543930683DB8003E21C7 /* Core */,
+				A9D55C4A306859CB003E21C7 /* FeatureRepos */,
 			);
 			productName = GithubViewer;
 			productReference = A9D53FDF30682478003E21C7 /* GithubViewer.app */;
@@ -118,6 +121,7 @@
 				A9D54604306828ED003E21C7 /* XCLocalSwiftPackageReference "navigation" */,
 				A9D5537D30683A33003E21C7 /* XCLocalSwiftPackageReference "featureMain" */,
 				A9D5543830683DB8003E21C7 /* XCLocalSwiftPackageReference "core" */,
+				A9D55C49306859CB003E21C7 /* XCLocalSwiftPackageReference "featureRepos" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A9CD4293305C06D500EA0C8D;
@@ -387,6 +391,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = core;
 		};
+		A9D55C49306859CB003E21C7 /* XCLocalSwiftPackageReference "featureRepos" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = featureRepos;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -410,13 +418,17 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = Navigation;
 		};
-		A9D5537E30683A33003E21C7 /* featureMain */ = {
+		A9D5537E30683A33003E21C7 /* FeatureMain */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = featureMain;
+			productName = FeatureMain;
 		};
 		A9D5543930683DB8003E21C7 /* Core */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Core;
+		};
+		A9D55C4A306859CB003E21C7 /* FeatureRepos */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeatureRepos;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

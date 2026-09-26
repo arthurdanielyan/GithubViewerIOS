@@ -30,11 +30,11 @@ struct ContentView: View {
             .padding()
             .navigationTitle("Login")
             .navigationDestination(for: LoginDestination.self) { _ in
-                LoginScreen(loginViewModelFactory: appModule.loginViewModelFactory.get())
+                LoginScreen(viewModelFactory: appModule.loginViewModelFactory.get())
                     .navigationBarBackButtonHidden(true)
             }
             .navigationDestination(for: MainDestination.self) { _ in
-                MainScreen(mainViewModelFactory: appModule.mainViewModelFactory.get())
+                MainScreen(mainDependencyProvider: appModule.mainDependecyProvider.get())
                     .navigationBarBackButtonHidden(true)
             }
         }

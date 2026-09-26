@@ -63,7 +63,14 @@ final class AppModule {
         )
     }
     
-    var appRouter: AppRouter? = nil
+    lazy var mainDependecyProvider: any DependencyProvider<MainDependencyProvider> =
+    NewDependencyProvider { [unowned self] in
+        MainDependencyProviderImpl(
+            appRouter: SingletonDependencyProvider(appRouter!)
+        )
+    }
+    
+    private var appRouter: AppRouter? = nil
     
     func putAppRouter(appRouter: AppRouter) {
         self.appRouter = appRouter

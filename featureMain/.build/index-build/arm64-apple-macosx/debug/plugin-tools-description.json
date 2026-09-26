@@ -1,0 +1,488 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.FeatureMain-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/sources",
+      "importPath" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainIntent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainScreen.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewModelFactory.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Modules/Navigation.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FeatureMain",
+      "moduleOutputPath" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Modules/FeatureMain.swiftmodule",
+      "objects" : [
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainIntent.swift.o",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainScreen.swift.o",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModel.swift.o",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewModelFactory.swift.o",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/MainViewState.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/include/FeatureMain-Swift.h",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "featuremain"
+      ],
+      "outputFileMapPath" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Modules/FeatureMain.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainIntent.swift",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainScreen.swift",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewModel.swift",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewModelFactory.swift",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewState.swift"
+      ],
+      "tempsPath" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Navigation-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build/sources",
+      "importPath" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/AppRouter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/Destination.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/destinations/LoginDestination.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/destinations/MainDestination.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Navigation",
+      "moduleOutputPath" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Modules/Navigation.swiftmodule",
+      "objects" : [
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build/AppRouter.swift.o",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build/Destination.swift.o",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build/LoginDestination.swift.o",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build/MainDestination.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build/include/Navigation-Swift.h",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "navigation"
+      ],
+      "outputFileMapPath" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Modules/Navigation.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/AppRouter.swift",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/Destination.swift",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/destinations/LoginDestination.swift",
+        "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/destinations/MainDestination.swift"
+      ],
+      "tempsPath" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "FeatureMain" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FeatureMain",
+      "-package-name",
+      "featuremain",
+      "-c",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainIntent.swift",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainScreen.swift",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewModel.swift",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewModelFactory.swift",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewState.swift",
+      "-I",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/include/FeatureMain-Swift.h",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "featuremain",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "Navigation" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Navigation",
+      "-package-name",
+      "navigation",
+      "-c",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/AppRouter.swift",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/Destination.swift",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/destinations/LoginDestination.swift",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/destinations/MainDestination.swift",
+      "-I",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build/include/Navigation-Swift.h",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "navigation",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "FeatureMain" : [
+      "Navigation"
+    ],
+    "Navigation" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainIntent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainScreen.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewModelFactory.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/Sources/featureMain/MainViewState.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/FeatureMain.build/sources"
+    },
+    "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/AppRouter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/Destination.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/destinations/LoginDestination.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/destinations/MainDestination.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/Navigation.build/sources"
+    },
+    "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

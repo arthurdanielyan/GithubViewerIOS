@@ -9,7 +9,7 @@ import Foundation
 
 public protocol AppRouter {
     
-    func navigate(_ to: Destination)
+    func navigate(_ to: any Destination)
     
     func pop()
 }
