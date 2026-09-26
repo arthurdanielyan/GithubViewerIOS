@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9C59ED0305F0A84001FC9D6 /* FeatureLogin in Frameworks */ = {isa = PBXBuildFile; productRef = A9C59ECF305F0A84001FC9D6 /* FeatureLogin */; };
 		A9CD50AC305C08A400EA0C8D /* DataAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A9CD50AB305C08A400EA0C8D /* DataAuth */; };
 		A9CD50B6305C08BD00EA0C8D /* DomainAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A9CD50B5305C08BD00EA0C8D /* DomainAuth */; };
 		A9CD516D305C0A2800EA0C8D /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = A9CD516C305C0A2800EA0C8D /* Network */; };
+		A9D54606306828ED003E21C7 /* Navigation in Frameworks */ = {isa = PBXBuildFile; productRef = A9D54605306828ED003E21C7 /* Navigation */; };
+		A9D5537F30683A33003E21C7 /* featureMain in Frameworks */ = {isa = PBXBuildFile; productRef = A9D5537E30683A33003E21C7 /* featureMain */; };
+		A9D5543A30683DB8003E21C7 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = A9D5543930683DB8003E21C7 /* Core */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A9CD429C305C06D500EA0C8D /* GithubViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D53FDF30682478003E21C7 /* GithubViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -29,8 +33,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D54606306828ED003E21C7 /* Navigation in Frameworks */,
+				A9C59ED0305F0A84001FC9D6 /* FeatureLogin in Frameworks */,
+				A9D5543A30683DB8003E21C7 /* Core in Frameworks */,
 				A9CD516D305C0A2800EA0C8D /* Network in Frameworks */,
 				A9CD50B6305C08BD00EA0C8D /* DomainAuth in Frameworks */,
+				A9D5537F30683A33003E21C7 /* featureMain in Frameworks */,
 				A9CD50AC305C08A400EA0C8D /* DataAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,16 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				A9CD429E305C06D500EA0C8D /* GithubViewer */,
-				A9CD429D305C06D500EA0C8D /* Products */,
+				A9D53FDF30682478003E21C7 /* GithubViewer.app */,
 			);
-			sourceTree = "<group>";
-		};
-		A9CD429D305C06D500EA0C8D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A9CD429C305C06D500EA0C8D /* GithubViewer.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +77,13 @@
 				A9CD50AB305C08A400EA0C8D /* DataAuth */,
 				A9CD50B5305C08BD00EA0C8D /* DomainAuth */,
 				A9CD516C305C0A2800EA0C8D /* Network */,
+				A9C59ECF305F0A84001FC9D6 /* FeatureLogin */,
+				A9D54605306828ED003E21C7 /* Navigation */,
+				A9D5537E30683A33003E21C7 /* featureMain */,
+				A9D5543930683DB8003E21C7 /* Core */,
 			);
 			productName = GithubViewer;
-			productReference = A9CD429C305C06D500EA0C8D /* GithubViewer.app */;
+			productReference = A9D53FDF30682478003E21C7 /* GithubViewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,9 +114,13 @@
 				A9CD50AA305C08A400EA0C8D /* XCLocalSwiftPackageReference "data" */,
 				A9CD50B4305C08BD00EA0C8D /* XCLocalSwiftPackageReference "domain" */,
 				A9CD516B305C0A2800EA0C8D /* XCLocalSwiftPackageReference "network" */,
+				A9C59ECE305F0A84001FC9D6 /* XCLocalSwiftPackageReference "featureLogin" */,
+				A9D54604306828ED003E21C7 /* XCLocalSwiftPackageReference "navigation" */,
+				A9D5537D30683A33003E21C7 /* XCLocalSwiftPackageReference "featureMain" */,
+				A9D5543830683DB8003E21C7 /* XCLocalSwiftPackageReference "core" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = A9CD429D305C06D500EA0C8D /* Products */;
+			productRefGroup = A9CD4293305C06D500EA0C8D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -351,6 +359,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
+		A9C59ECE305F0A84001FC9D6 /* XCLocalSwiftPackageReference "featureLogin" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = featureLogin;
+		};
 		A9CD50AA305C08A400EA0C8D /* XCLocalSwiftPackageReference "data" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = data;
@@ -363,9 +375,25 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = network;
 		};
+		A9D54604306828ED003E21C7 /* XCLocalSwiftPackageReference "navigation" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = navigation;
+		};
+		A9D5537D30683A33003E21C7 /* XCLocalSwiftPackageReference "featureMain" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = featureMain;
+		};
+		A9D5543830683DB8003E21C7 /* XCLocalSwiftPackageReference "core" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = core;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A9C59ECF305F0A84001FC9D6 /* FeatureLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeatureLogin;
+		};
 		A9CD50AB305C08A400EA0C8D /* DataAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DataAuth;
@@ -377,6 +405,18 @@
 		A9CD516C305C0A2800EA0C8D /* Network */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Network;
+		};
+		A9D54605306828ED003E21C7 /* Navigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Navigation;
+		};
+		A9D5537E30683A33003E21C7 /* featureMain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = featureMain;
+		};
+		A9D5543930683DB8003E21C7 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

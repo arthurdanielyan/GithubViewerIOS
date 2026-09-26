@@ -5,7 +5,19 @@
 //  Created by Artur Danielyan on 14.09.26.
 //
 
-public struct AuthApi {
+import Network
+
+public struct AuthApi: Sendable {
+    private let httpClient: HttpClient
     
-    public init() {}
+    public init(httpClient: HttpClient) {
+        self.httpClient = httpClient
+    }
+
+    public func authenticate(token: String) async throws {
+        try await httpClient.get(
+            endpoint: "user",
+            headers: ["Authorization": "Bearer \(token)"]
+        ) as EmptyResponse
+    }
 }

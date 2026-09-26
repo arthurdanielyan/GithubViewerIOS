@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/primary.swiftdeps"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/Sources/auth/AuthApi.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/AuthApi.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/AuthApi.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/AuthApi~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/AuthApi.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/AuthApi.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/Sources/auth/TokenStore.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/TokenStore.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/TokenStore.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/TokenStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/TokenStore.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/TokenStore.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/Sources/auth/repository/AuthRepositoryImpl.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/AuthRepositoryImpl.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/AuthRepositoryImpl.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/AuthRepositoryImpl~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/AuthRepositoryImpl.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/data/.build/index-build/arm64-apple-macosx/debug/DataAuth.build/AuthRepositoryImpl.dia"
+  }
+}

@@ -8,6 +8,9 @@
 import DataAuth
 import DomainAuth
 import Network
+import Navigation
+import FeatureLogin
+import FeatureMain
 
 final class AppModule {
     
@@ -15,13 +18,18 @@ final class AppModule {
         factory: {
             let client = HttpClient()
             client.configure { config in
-                config.baseUrl = "https://api.github.com"
+                config.baseUrl = "https://api.github.com/"
+                config.tokenHeader = "Authorization"
             }
             return client
         }
     )
     
-    lazy var authApi = SingletonDependencyProvider(AuthApi())
+    lazy var authApi = SingletonDependencyProvider(
+        AuthApi(
+            httpClient: httpClient.get()
+        )
+    )
     lazy var tokenStore = SingletonDependencyProvider(TokenStore())
     
     var authRepository: any DependencyProvider<AuthRepository> {
@@ -29,8 +37,35 @@ final class AppModule {
             AuthRepositoryImpl(
                 api: authApi.get(),
                 tokenStore: tokenStore.get(),
-                httpClient: httpClient.get()
+                httpClient: httpClient.get(),
             )
         }
+    }
+    
+    lazy var loginUseCase =
+    NewDependencyProvider { [unowned self] in
+        LoginUseCase(
+            authRepository: authRepository.get(),
+        )
+    }
+    lazy var loginViewModelFactory: any DependencyProvider<LoginViewModelFactory> =
+    NewDependencyProvider { [unowned self] in
+        LoginViewModelFactoryImpl(
+            loginUseCase: loginUseCase.get(),
+            appRouter: appRouter!
+        )
+    }
+    
+    lazy var mainViewModelFactory: any DependencyProvider<MainViewModelFactory> =
+    NewDependencyProvider { [unowned self] in
+        MainViewModelFactoryImpl(
+            appRouter: appRouter!
+        )
+    }
+    
+    var appRouter: AppRouter? = nil
+    
+    func putAppRouter(appRouter: AppRouter) {
+        self.appRouter = appRouter
     }
 }

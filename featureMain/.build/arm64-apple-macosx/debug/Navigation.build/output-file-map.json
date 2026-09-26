@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/primary.swiftdeps"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/AppRouter.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/AppRouter.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/AppRouter.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/AppRouter~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/AppRouter.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/AppRouter.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/Destination.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/Destination.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/Destination.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/Destination~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/Destination.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/Destination.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/destinations/LoginDestination.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/LoginDestination.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/LoginDestination.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/LoginDestination~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/LoginDestination.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/LoginDestination.dia"
+  },
+  "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/navigation/Sources/navigation/destinations/MainDestination.swift": {
+    "dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/MainDestination.d",
+    "object": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/MainDestination.swift.o",
+    "swiftmodule": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/MainDestination~partial.swiftmodule",
+    "swift-dependencies": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/MainDestination.swiftdeps",
+    "diagnostics": "/Users/arturdanielyan/MyFiles/MyProjects/iOS projects/GithubViewer/featureMain/.build/arm64-apple-macosx/debug/Navigation.build/MainDestination.dia"
+  }
+}

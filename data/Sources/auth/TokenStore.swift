@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct TokenStore {
+public struct TokenStore: Sendable {
     
     public init() {}
     

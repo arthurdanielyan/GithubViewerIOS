@@ -6,19 +6,46 @@
 //
 
 import SwiftUI
+import Navigation
+import FeatureLogin
+import FeatureMain
 
 struct ContentView: View {
+    private let appModule: AppModule
+    private let appRouterObj = AppRouterImpl()
+    @StateObject private var appRouter = AppRouterImpl()
+    
+    init(appModule: AppModule) {
+        self.appModule = appModule
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack(path: $appRouter.stack) {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                Text("Hello, world!")
+            }
+            .padding()
+            .navigationTitle("Login")
+            .navigationDestination(for: LoginDestination.self) { _ in
+                LoginScreen(loginViewModelFactory: appModule.loginViewModelFactory.get())
+                    .navigationBarBackButtonHidden(true)
+            }
+            .navigationDestination(for: MainDestination.self) { _ in
+                MainScreen(mainViewModelFactory: appModule.mainViewModelFactory.get())
+                    .navigationBarBackButtonHidden(true)
+            }
         }
-        .padding()
+        .onAppear {
+            appModule.putAppRouter(appRouter: appRouter)
+            appRouter.stack.removeLast(appRouter.stack.count)
+            appRouter.stack.append(LoginDestination())
+        }
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(appModule: AppModule())
 }

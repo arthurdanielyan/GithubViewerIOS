@@ -14,7 +14,7 @@ struct GithubViewerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(appModule: appModule)
         }
     }
 }

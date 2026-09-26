@@ -20,9 +20,9 @@ public struct AuthRepositoryImpl: AuthRepository {
     }
     
     public func authenticate(apiToken: String) async throws {
-        httpClient.configure { config in
-            config.addHeaders([:])
-        }
+        tokenStore.clearToken()
+        try await api.authenticate(token: apiToken)
+        httpClient.putToken("Bearer \(apiToken)")
         tokenStore.storeToken(apiToken)
     }
 }

@@ -32,7 +32,7 @@ struct NewDependencyProvider<T>: DependencyProvider {
     
     private let factory: () -> T
     
-    init (factory: @escaping () -> T) {
+    init (_ factory: @escaping () -> T) {
         self.factory = factory
     }
     
@@ -40,4 +40,3 @@ struct NewDependencyProvider<T>: DependencyProvider {
         return factory()
     }
 }
-

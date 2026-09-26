@@ -8,15 +8,15 @@ let package = Package(
         .library(name: "DataAuth", targets: ["DataAuth"])
     ],
     dependencies: [
-        .package(path: "../domain")
+        .package(path: "../domain"),
+        .package(path: "../network")
     ],
     targets: [
-        .target(name: "Network", path: "Sources/network"),
-        
         .target(
             name: "DataAuth",
             dependencies: [
-                .product(name: "DomainAuth", package: "domain")
+                .product(name: "DomainAuth", package: "domain"),
+                .product(name: "Network", package: "network")
             ],
             path: "Sources/auth"
         ),
